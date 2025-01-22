@@ -24,7 +24,7 @@ module.exports = {
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   PORT: process.env.PORT || 3000,
   CAPTION: process.env.CAPTION || "shaka",
-  WORK_TYPE: process.env.WORK_TYPE || "private",
+  WORK_TYPE: process.env.WORK_TYPE || "public",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
