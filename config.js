@@ -8,10 +8,10 @@ const toBool = (x) => x == "true";
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 let HANDLER = "false";
 module.exports = {
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  ANTILINK: toBool(process.env.ANTI_LINK) || true,
   LOGS: toBool(process.env.LOGS) || false,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "Nikka-XsjwlzCTJ#djz6w8XJj0WrWGqEFBVbKPx0mKk73N2kpJ84mtCb99s",
+  SESSION_ID:process.env.SESSION_ID || "Nikka-XpiJQgLSa#N46GLsQ-ayEHLRBGZjkk8Gy9UmdkNRPUkr2PfvV4K-o",
   LANG: process.env.LANG || "EN",
   HANDLERS: process.env.PREFIX || '^[!]',
   PRESCENCE: process.env.PRESCENCE || "typing",
